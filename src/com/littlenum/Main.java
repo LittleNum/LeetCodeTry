@@ -1,9 +1,6 @@
 package com.littlenum;
 
-import com.littlenum.hash.ArraySum;
-import com.littlenum.hash.BrickWall;
-import com.littlenum.hash.ReplaceWords;
-import com.littlenum.tree.*;
+import com.littlenum.hash.CopyRandomPointer;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -12,7 +9,7 @@ public class Main {
 
     public static void main(String[] args) {
         // write your code here
-        new BrickWall().test();
+        new CopyRandomPointer().test();
     }
 
     private static void bubbleSort(int[] array) {
