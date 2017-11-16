@@ -1,6 +1,8 @@
 package com.littlenum;
 
+import com.littlenum.hash.ContiguousArray;
 import com.littlenum.hash.CopyRandomPointer;
+import com.littlenum.hash.HIndex;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -9,7 +11,7 @@ public class Main {
 
     public static void main(String[] args) {
         // write your code here
-        new CopyRandomPointer().test();
+        new ContiguousArray().test();
     }
 
     private static void bubbleSort(int[] array) {
