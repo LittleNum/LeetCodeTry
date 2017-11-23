@@ -3,6 +3,7 @@ package com.littlenum;
 import com.littlenum.hash.ContiguousArray;
 import com.littlenum.hash.CopyRandomPointer;
 import com.littlenum.hash.HIndex;
+import com.littlenum.hash.NumberOfAtoms;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -11,7 +12,7 @@ public class Main {
 
     public static void main(String[] args) {
         // write your code here
-        new ContiguousArray().test();
+        new NumberOfAtoms().test();
     }
 
     private static void bubbleSort(int[] array) {
