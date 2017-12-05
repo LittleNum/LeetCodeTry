@@ -5,6 +5,7 @@ import com.littlenum.hash.CopyRandomPointer;
 import com.littlenum.hash.HIndex;
 import com.littlenum.hash.NumberOfAtoms;
 import com.littlenum.heap.SortCharsequence;
+import com.littlenum.heap.TopKFrequent;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -13,7 +14,7 @@ public class Main {
 
     public static void main(String[] args) {
         // write your code here
-        new SortCharsequence().test();
+        new TopKFrequent().test();
     }
 
     private static void bubbleSort(int[] array) {
