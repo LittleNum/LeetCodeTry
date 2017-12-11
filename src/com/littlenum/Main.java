@@ -4,6 +4,7 @@ import com.littlenum.hash.ContiguousArray;
 import com.littlenum.hash.CopyRandomPointer;
 import com.littlenum.hash.HIndex;
 import com.littlenum.hash.NumberOfAtoms;
+import com.littlenum.heap.KthSmallestElement;
 import com.littlenum.heap.SortCharsequence;
 import com.littlenum.heap.TopKFrequent;
 
@@ -14,7 +15,7 @@ public class Main {
 
     public static void main(String[] args) {
         // write your code here
-        new TopKFrequent().test();
+        new KthSmallestElement().test();
     }
 
     private static void bubbleSort(int[] array) {
